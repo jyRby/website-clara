@@ -17,14 +17,14 @@
     position: relative;
     top: -50%;
     z-index: 1;
-    color: white; /* Couleur blanche opaque */
-    background: none; /* Pas de fond, pas de transparence */
+    color: white; 
+    background: none; 
     padding: 10px 15px;
     text-align: center;
     font-size: 1rem;
     font-weight:normal;
-    opacity: 0;             /* Caché par défaut */
-    transition: opacity 0.3s ease; /* Transition douce */
+    opacity: 0;            
+    transition: opacity 0.3s ease; 
 }
 
 .movieTitle a {
@@ -52,13 +52,9 @@
 }
 
 #film {
+    padding-top: 60px;
     margin: 2%;
     text-align: center;
-}
-
-#film video {
-    margin-bottom: 50px;
-    height: 360px;
 }
 
 #portrait img {
